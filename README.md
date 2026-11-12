@@ -108,6 +108,9 @@ machine through and still block a runner.
 
 Running a workflow needs write access to this repo.
 
+To check the rate limit, run Actions -> Rate limit -> Run workflow. Don't run `check-rate-limit.mjs` from the UCL
+network, because it blocks the address it runs from for 1 minute.
+
 To run the file directly, for example against the deployed proxy or a test deployment:
 
 ```
