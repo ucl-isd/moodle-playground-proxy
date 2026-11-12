@@ -10,6 +10,7 @@
     "lint": "npx --yes @biomejs/biome@2.6.2 check --error-on-warnings .",
     "format": "npx --yes @biomejs/biome@2.6.2 format --write .",
     "check": "node check-proxy.mjs https://playground-proxy.preview-moodle.ucl.ac.uk/",
-    "check:local": "node check-proxy.mjs local"
+    "check:local": "node check-proxy.mjs local",
+    "check:rate-limit": "node check-rate-limit.mjs https://playground-proxy.preview-moodle.ucl.ac.uk/"
   }
 }
